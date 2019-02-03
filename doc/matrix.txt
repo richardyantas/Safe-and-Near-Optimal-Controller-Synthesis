@@ -1,0 +1,101 @@
+
+\subsection{Matrix Representation}
+
+
+$\sigma = u_1:$
+
+\vspace{5mm}
+
+\hbox{
+$A = 
+\begin{bmatrix}
+  1 & 0 & 0\\
+  0 & 1 & 0\\
+  0 & 0 & -\frac{\flowin-k_2}{\mcont}
+\end{bmatrix},
+\statevec =
+\begin{bmatrix}
+  \tcont \\
+  \vcont\\
+  \dot\vcont
+\end{bmatrix},
+B = 
+\begin{bmatrix}
+  0 & 0 & 1\\
+  0 & 0 & 0\\
+  1 & -1 & 0\\
+\end{bmatrix},
+\inputvec =
+\begin{bmatrix}
+  \peva\\
+  \pwat\\
+  \haux\\
+\end{bmatrix},
+\disturbvec =
+\begin{bmatrix}
+  \frac{\irradiance(t)\cdot{k_1}+\tenv(t)\cdot{k_2}+\tin(t)\cdot\flowin}{\mcont}\\
+  0\\
+  0\\
+\end{bmatrix}
+$
+}
+
+\vspace{5mm}
+
+$\sigma = u_2:$ 
+
+\vspace{5mm}
+
+\hbox{
+$A = 
+\begin{bmatrix}
+  1 & 0 & 0\\
+  0 & 1 & 0\\
+  0 & 0 & -\frac{\flowin}{\mcont}
+\end{bmatrix},
+\statevec =
+\begin{bmatrix}
+  \tcont \\
+  \vcont\\
+  \dot\vcont
+\end{bmatrix},
+B = 
+\begin{bmatrix}
+  0 & 0 & 1\\
+  0 & 0 & 0\\
+  1 & -1 & 0\\
+\end{bmatrix},
+\inputvec =
+\begin{bmatrix}
+  \peva\\
+  \pwat\\
+  \haux\\
+\end{bmatrix},
+\disturbvec =
+\begin{bmatrix}
+  \frac{\irradiance(t)\cdot{k_1}+\tenv(t)\cdot{k_2}}{\mcont}\\
+  0\\
+  0\\
+\end{bmatrix}
+$
+}
+
+
+
+
+
+
+\begin{table}[ht]
+\centering
+\caption{A table without vertical lines.}
+\begin{tabular}[t]{lcc}
+\hline
+&Treatment A&Treatment B\\
+\hline
+John Smith&1&2\\
+Jane Doe&--&3\\
+Mary Johnson&4&5\\
+\hline
+\end{tabular}
+\end{table}%
+
