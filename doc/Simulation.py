@@ -9,7 +9,7 @@ def getSec(hrs):
 def gauss(mean, sig, T, num):
 	g = np.zeros((num,1))
 	for i in range(1,num-1):
-		g[i,0] = 5*(1/(2.5066*sig))*exp(-pow((T*i-mean),2)/(2*pow(sig,2)));
+		g[i,0] = 5*(1/(2.5066*sig))*exp(-pow((T*i-mean),2)/(2*pow(sig,2)))
 	return g
 
 class signal:
@@ -28,7 +28,7 @@ class signal:
 
 # bang bang controller, and safety controller
 
-T   = 1  # importan to gauss 0.1
+T   = 1  # important to gauss 0.1
 dm  = 0.1
 Mc  = 100
 Kc  = 16/4
