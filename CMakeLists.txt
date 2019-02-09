@@ -21,4 +21,4 @@ set(HEADERS app/include/utils.h app/include/sss.h)
 set(SOURCES app/src/main.cpp)
 
 add_executable(main ${HEADERS} ${SOURCES})
-target_link_libraries(main ibex prim )
+target_link_libraries(main ibex prim)
