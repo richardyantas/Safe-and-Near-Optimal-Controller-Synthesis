@@ -23,4 +23,4 @@ This framework, guaranty a safe and near optimal behaviour for hybrid Games.
                                                    
    1.2 Mathematical Modeling 
    
-        ![Img_current_state](./images/hybridmodel.png)
+        ![Img_current_state](./img/hybridmodel.png)
