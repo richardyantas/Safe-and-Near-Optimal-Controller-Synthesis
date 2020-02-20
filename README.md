@@ -23,4 +23,4 @@ This framework, guaranty a safe and near optimal behaviour for hybrid Games.
                                                    
    1.2 Mathematical Modeling 
    
-       ![model](/images/hybridmodel.jpg "A cute kitten")
+       ![Bilby Stampede](https://github.com/richardyantas/SafeAndNearOptimalControllerSynthesisForSHM/blob/master/images/hybridmodel.png)
