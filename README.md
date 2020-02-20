@@ -9,17 +9,18 @@ This framework, guaranty a safe and near optimal behaviour for hybrid Games.
    1.1 System formulation
        
        States: Temperature, Volumen, Energy consumption. 
+       
        Actions: 
                 Controllable actions:
                       Resistance event: 1,0                
                       Volumen targets: 100L,200L,300L    
                 Uncontrollable actions:
                       Valve: 1,0                                
-       Inputs:
+
+       Disturbance:
+                Enviorment Conditions
                 
-       Output:
-       
-       
+                                                   
    1.2 Mathematical Modeling 
    
-       States 
+       ![model](https://github.com/richardyantas/SafeAndNearOptimalControllerSynthesisForSHM/blob/master/images/hybridmodel.jpg "A cute kitten")
