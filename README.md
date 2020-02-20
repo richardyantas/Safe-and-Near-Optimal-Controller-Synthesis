@@ -1,6 +1,6 @@
 # Safe and Near Optimal Controller Synthesis
 
-This framework, guaranty a safe and near optimal behaviour for hybrid Games.
+This methodoly, guarantee a safe and near optimal behaviour for sthocastic hybrid Games.
 
 
 1. Choose a case of study 
@@ -13,20 +13,30 @@ This framework, guaranty a safe and near optimal behaviour for hybrid Games.
        
        Actions: 
                 Controllable actions:
-                      Resistance event: 1,0                
-                      Volumen targets: 100L,200L,300L    
-                Uncontrollable actions:
-                      Valve: 1,0                                
+                
+                      Resistance event (r): 1,0                
+                      Volumen targets  (p): 100L,200L,300L (p=0,1,2)    
+                      
+                Uncontrollable actions (users):
+                
+                      Valve            (v): 1,0                                
 
-       Disturbance:
-                Enviornment Conditions
-                  Temperature enviornment
+       Enviornment:
+                
+                  Temperature environment
                   Irradiation
                 
-                                                   
+     Therefore is defined the the follow discrete variables (events) r= (0,1), p = (0,1,3) ,v = (1,0). A mode is defined 
+     as a combination m = (r,p,v) with some restriction depending of the system.
+     
+      
    1.2 Mathematical Modeling 
+   
+   The red lines represent the forbidden transitions in the full conected automata. 
 
 ![Img_current_state](./img/hybridmodel.png)
+
+   Final set of equations:
 
    ``` c++
       double p,r;   
