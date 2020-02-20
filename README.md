@@ -82,8 +82,8 @@ This framework, guaranty a safe and near optimal behaviour for hybrid Games.
    ``` cmd
    python test.py
    ```
-   
-   
-   
+   we can see the figure above how the system is bounded 
+![Img_current_state](./img/state.png)
+![Img_current_state](./img/control.png)
    
    
