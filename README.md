@@ -1,6 +1,7 @@
 # Safe and Near Optimal Controller Synthesis
 
-This framework, guaranty a safe and near optimal behaviour for hybrid Games. 
+This framework, guaranty a safe and near optimal behaviour for hybrid Games.
+
 
 1. Choose a case of study 
 
@@ -24,7 +25,19 @@ This framework, guaranty a safe and near optimal behaviour for hybrid Games.
                 
                                                    
    1.2 Mathematical Modeling 
-   
-![Img_current_state](./img/ode.png)
+
 ![Img_current_state](./img/hybridmodel.png)
-       
+
+2. Safe
+   2.1 Finding Patterns 
+   
+   #### Compiling and Running
+
+   ``` cmd
+   mkdir build
+   cd build
+   cmake ..
+   make && ./out
+   ```
+
+
