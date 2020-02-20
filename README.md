@@ -18,10 +18,13 @@ This framework, guaranty a safe and near optimal behaviour for hybrid Games.
                       Valve: 1,0                                
 
        Disturbance:
-                Enviorment Conditions
+                Enviornment Conditions
+                  Temperature enviornment
+                  Irradiation
                 
                                                    
    1.2 Mathematical Modeling 
+   
 ![Img_current_state](./img/ode.png)
 ![Img_current_state](./img/hybridmodel.png)
        
